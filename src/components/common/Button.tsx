@@ -8,7 +8,7 @@ interface Props {
 
 export const Button: React.FC<Props> = ({label,width,onClick}:any) =>{
   return (
-    <button onClick={onClick} className={`${width} bg-lightBlue text-white font-robotoMedium text-xl rounded-xl outline-none hover:shadow-lg`}>{label}</button>
+    <button onClick={onClick} className={`${width} bg-lightBlue text-white font-robotoMedium text-xl rounded-2xl outline-none hover:shadow-lg`}>{label}</button>
   )
 }
 
